@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 19/4B</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./icons-1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="container w-50 border border-2 border-dark p-5">
+        <div class="d-flex justify-content-center mb-5"><h2>COVID-19 Vaccine Regestration</h2></div>
+        <form>
+            <div class="row mb-3">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">FirstName</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="inputEmail3">
+                </div>
+              </div>
+            <div class="row mb-3">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">LastName</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="inputEmail3">
+              </div>
+            </div>
+            <div class="row mb-3">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">AadharNo</label>
+                <div class="col-sm-10">
+                  <input type="number" class="form-control" id="inputEmail3">
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Vaccine Name</label>
+                <div class="col-sm-10">
+                    <select class="form-select w-100" id="specificSizeSelect">
+                        <option selected>Please Select Vaccine Name</option>
+                        <option value="1">Vaccine-1</option>
+                        <option value="2">Vaccine-2</option>
+                        <option value="3">Vaccine-3</option>
+                      </select>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Vaccine Center Name</label>
+                <div class="col-sm-10">
+                    <select class="form-select w-100" id="specificSizeSelect">
+                        <option selected>Please Select Vaccination Center</option>
+                        <option value="1">Botad</option>
+                        <option value="2">Amreli</option>
+                        <option value="3">Surat</option>
+                        <option value="3">Ahmedavad</option>
+                      </select>
+                </div>
+              </div>
+            <div class="row mb-3">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">DateOfDose</label>
+                <div class="col-sm-10">
+                  <input type="date" class="form-control" id="inputPassword3">
+                </div>
+              </div>          
+              <div class="row mb-3">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Dose Number</label>
+                <div class="col-sm-10">
+                  <input type="number" class="form-control" id="inputPassword3">
+                </div>
+              </div>
+              <div class="d-flex justify-content-center gap-2">
+            <button type="submit" class="btn btn-secondary text-dark border border-dark">CLICK HERE</button>
+            <button type="reset" class="btn btn-secondary text-dark border border-dark"">CANCEL</button>
+        </div>
+          </form>
+    </div>
+
+
+
+    <script src="./bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+</body>
+</html>

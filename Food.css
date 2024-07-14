@@ -1,0 +1,60 @@
+/* TABLE OF CONTENTS */
+/* ------------------
+1. General
+2. Navbar
+3. Banner
+4. About
+5. Menu
+6. Offers
+7. Review
+8. Footer
+-------------------- */
+
+/* General */
+@import url();
+@import url();
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    /*Background color*/
+    --primary-color: #e81922;
+    --secondary-color: #333333;
+    --bg-white:#fff;
+    --bg-black: #111111;
+    --bg-dark: #1C1819;
+    --bg-gray: #e5e5e5;
+
+    /*Text color*/
+    --primary-text: #e81922;
+    --text-white: #fff;
+    --text-white: #111111;
+
+    /*Font Family*/
+    --primary-font:'Ubuntu','Sans-serif';
+    --secondary-font:'Open Sans','Sans-serif';
+}
+
+body{
+    font-family: var(--secondary-font);
+    background-color: var(--bg-white);
+}
+
+a{
+    text-decoration:none;
+}
+
+
+/* 1 Custom CSS */
+
+::-webkit-scrollbar{
+    width: 6px;
+}
+
+::-webkit-scrollbar-track{
+    background: var(--bg-dark-blue);
+}

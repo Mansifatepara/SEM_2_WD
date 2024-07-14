@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab9PartB</title>
+    <style>
+        .rainbowcolor{
+            display: flex;
+            justify-content: space-around;
+        }
+        .c1{
+            width: 100px;
+            height: 100px;
+            background-color: purple;
+            animation-name: rainbow;
+            animation-duration: 5s;
+            animation-timing-function: ease-in;
+            animation-delay: 2s;
+            animation-fill-mode: forwards;
+        }
+        .c2{
+            width: 100px;
+            height: 100px;
+            background-color: skyblue;
+            animation-name: rainbow;
+            animation-duration: 5s;
+            animation-timing-function: ease-in;
+            animation-delay: 4s;
+            animation-fill-mode: forwards;
+        }
+        .c3{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            animation-name: rainbow;
+            animation-duration: 5s;
+            animation-timing-function: ease-in;
+            animation-delay: 6s;
+            animation-fill-mode: forwards;
+        }
+        .c4{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            animation-name: rainbow;
+            animation-duration: 5s;
+            animation-timing-function: ease-in;
+            animation-delay: 8s;
+            animation-fill-mode:forwards;
+        }
+        .c5{
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            animation-name: rainbow;
+            animation-duration: 5s;
+            animation-timing-function: ease-in;
+            animation-delay: 10s;
+            animation-fill-mode: forwards;
+        }
+        .c6{
+            width: 100px;
+            height: 100px;
+            background-color: orange;
+            animation-name: rainbow;
+            animation-duration: 5s;
+            animation-timing-function: ease-in;
+            animation-delay: 12s;
+            animation-fill-mode: forwards;
+        }
+        .c7{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            animation-name: rainbow;
+            animation-duration: 5s;
+            animation-timing-function: ease-in;
+            animation-delay: 14s;
+            animation-fill-mode: forwards;
+        }
+        @keyframes rainbow{
+            from{
+                position: relative;
+                top: 0px;
+                transform: rotate(0deg);
+                border-radius: 0%;
+            }
+            to{
+                position: relative;
+                top: 300px;
+                transform: rotate(360deg);
+                border-radius: 50%;
+            }
+        }
+    </style>
+</head>
+<body><div class="rainbowcolor">
+    <div class="c1"></div>
+    <div class="c2"></div>
+    <div class="c3"></div>
+    <div class="c4"></div>
+    <div class="c5"></div>
+    <div class="c6"></div>
+    <div class="c7"></div>
+    
+    <!-- aakhi website frithi reload kri aetle aakhu animation frithi start thshe -->
+    <script>
+        setTimeout(()=>{
+            window.location.reload()
+        }, 20000)
+    </script>
+</div>
+</body>
+</html>

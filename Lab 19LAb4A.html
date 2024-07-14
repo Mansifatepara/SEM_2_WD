@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 19/4A</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./icons-1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="container w-50 border border-2 border-dark p-5">
+        <div class="d-flex justify-content-center mb-5"><h1>Student Regestration</h1></div>
+        <form>
+            <div class="row mb-3">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">FullName</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="inputEmail3">
+                </div>
+              </div>
+            <div class="row mb-3">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3">
+              </div>
+            </div>
+            <div class="row mb-3">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">MobileNo</label>
+                <div class="col-sm-10">
+                  <input type="number" class="form-control" id="inputEmail3">
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Address</label>
+                <div class="col-sm-10">
+                  <textarea type="textarea" class="form-control" id="inputEmail3" rows="5"></textarea>
+                </div>
+              </div>
+            <div class="row mb-3">
+              <label for="inputPassword3" class="col-sm-2 col-form-label">Nationality</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword3">
+              </div>
+            </div>
+            <div class="row mb-3">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">DateOfBirth</label>
+                <div class="col-sm-10">
+                  <input type="date" class="form-control" id="inputPassword3">
+                </div>
+              </div>
+            <fieldset class="row mb-3">
+              <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
+              <div class="col-sm-10">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                  <label class="form-check-label" for="gridRadios1">
+                    Male
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                  <label class="form-check-label" for="gridRadios2">
+                    Female
+                  </label>
+                </div>
+              </div>
+            </fieldset>
+            <div class="row mb-3">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Highest Degree</label>
+                <div class="col-sm-10">
+                    <select class="form-select w-100" id="specificSizeSelect">
+                        <option selected>Select Degree</option>
+                        <option value="1">B.tect</option>
+                        <option value="2">B.Sc</option>
+                        <option value="3">BCA</option>
+                        <option value="3">B.Sc IT</option>
+                      </select>
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">CPI</label>
+                <div class="col-sm-10">
+                  <input type="number" class="form-control" id="inputPassword3">
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">University</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="inputPassword3">
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Passing Year</label>
+                <div class="col-sm-10">
+                    <select class="form-select w-100" id="specificSizeSelect">
+                        <option selected>Select your Passing year</option>
+                        <option value="1">2021</option>
+                        <option value="2">2022</option>
+                        <option value="3">2023</option>
+                        <option value="2">2024</option>
+                      </select>
+                </div>
+              </div>
+              <div class="d-flex justify-content-center gap-2">
+            <button type="submit" class="btn btn-secondary text-dark">Submit</button>
+            <button type="reset" class="btn btn-secondary text-dark">Cancel</button>
+        </div>
+          </form>
+    </div>
+
+
+
+    <script src="./bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+</body>
+</html>

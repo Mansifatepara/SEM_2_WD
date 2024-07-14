@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 17A Using Bootstrap</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./icons-1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        #firstrow{
+            height: 50px;
+            background-color: black;
+            color: white;
+        }
+        #column-2{
+            color: rgb(168, 178, 187);
+        }
+        .button12{
+          background-color:  rgb(90, 208, 90);
+          border-radius: 10px;
+           width: 30px; 
+           height: 25px;
+           margin: 0px 0px;
+          padding: 0px 4px;
+        }
+        .ximg{
+          background-color: red;
+        }
+        .buttonfirst{
+          background-color: green;
+          border-radius: 5px;
+          font-size: 0.7rem;
+          margin: 0px 0px;
+          padding: 0px 4px;
+        }
+        .buttonlast{
+          background-color: yellow;
+          border-radius: 5px;
+          font-size: 0.7rem;
+          margin: 0px 0px;
+          padding: 0px 4px;
+        }
+        #row1{
+          width: 100%;
+          height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class=" container">
+        <div class="row" id="firstrow">
+            <div class="col-2">LOGO</div>
+            <div class="col-2"></div>
+                <div class="col">Home</div>
+                <div class="col" id="column-2">Contact</div>
+                <div class="col" id="column-2">About Us</div>
+                <div class="col" id="column-2"><button type="button" class="btn btn-dark">Messages<span class="badge text-bg-success">12</span></button></div>
+        </div>
+        <h1 class="display-5">Dashboard:</h1>
+        <table class="table table-bordered table-striped">
+            <thead>
+                  <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Team</th>
+                    <th scope="col">All Star</th>
+                    <th scope="col">Remove</th>
+                  </tr>
+            </thead>
+                <tbody>
+                  <tr>
+                    <td scope="row">stepth</td>
+                    <td>Warriors</td>
+                    <td>Yes</td>
+                    <td><i class="bi bi-x-square-fill text-danger"></i></td>
+                  </tr>
+                  <tr>
+                    <td scope="row">Lebron</td>
+                    <td>Cavaliers</td>
+                    <td>Yes</td>
+                    <td><i class="bi bi-x-square-fill text-danger"></i></td>
+                  </tr>
+                  <tr>
+                    <td scope="row">Dwayne</td>
+                    <td>Heat</td>
+                    <td>Yes</td>
+                    <td><i class="bi bi-x-square-fill text-danger"></i></td>
+                  </tr>
+                  <tr>
+                    <td scope="row">Kobe</td>
+                    <td>Lakers</td>
+                    <td>Yes <button class="buttonlast" type="button" value="">Last</button></td>
+                    <td><i class="bi bi-x-square-fill text-danger"></i></td>
+                  </tr>
+                  <tr>
+                    <td scope="row">Isaiah</td>
+                    <td>Celtics</td>
+                    <td>Yes <button class="buttonfirst text-light" type="button" value="">First</button></td>
+                    <td><i class="bi bi-x-square-fill text-danger"></i></td>
+                  </tr>
+                </tbody>
+          </table>
+          <h1 class="display-6">Todos:</h1>
+          <div class="row">
+            <table class="table-primary-rounded-5">
+              <tr class="text-success bg-success-subtle borde border-dark-subtle rounded-3">
+                <th scope="row" class="p-2 border border-dark">
+                  Feel good About bootstrap
+                </th>
+              </tr>
+              <tr class="text-primary bg-primary-subtle borde border-dark-subtle rounded-3">
+                <th scope="row" class="p-2 border border-dark">
+                  Feel warned about bootstrap
+                </th>
+              </tr>
+              <tr class="text-warning bg-warning-subtle borde border-dark ">
+                <th scope="row" class="p-2 border border-dark">
+                  Maybe I should read the docs...
+                </th>
+              </tr>
+              <tr class="text-warning bg-warning-subtle borde border-dark-subtle rounded-3">
+                <th scope="row" class="p-2 border border-dark">
+                   Danger Zone
+                </th>
+              </tr>
+              <tr class="text-danger bg-danger-subtle borde border-dark-subtle rounded-3">
+                <th scope="row" class="p-2 border border-dark">
+                  I really should read the docs
+                </th>
+              </tr>
+              <tr class="text-danger bg-danger-subtle borde border-dark-subtle rounded-3">
+                <th scope="row" class="p-2 border border-dark">
+                  Feel good About bootstrap
+                </th>
+              </tr>
+            </table>
+          </div>
+    </div>
+    <script src="./bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+

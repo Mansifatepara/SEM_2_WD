@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 22-PART-A</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./icons-1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <div class="container-fluid bg-primary-subtle w-75 mt-5">
+        <div class="">
+            <i class="bi bi-bootstrap-fill d-flex justify-content-center p-5" style="color: rgb(60, 8, 111); font-size: 5rem;"></i>
+        </div>
+    <div class="row d-flex justify-content-center">
+        <div class="col-2"></div>
+        <div class="col-4 text-center mt-3"><h2>Checkout Form</h2></div>
+        <div class="col-2"></div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-8 text-center"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores similique sed accusantium explicabo voluptates. Porro molestiae perspiciatis inventore nam quia.</p></div>
+    </div>
+    <div class="row p-4">
+        <div class="col-8">
+    <div><h5>Billing Address</h5></div>
+    <div>
+        <div class="row g-3">
+            <div class="col">First Name
+              <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+            </div>
+            <div class="col">Last Name
+              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+            </div>
+          </div>
+          <div class="col-auto pt-2">Username
+            <label class="visually-hidden" for="autoSizingInputGroup">Username</label>
+            <div class="input-group">
+              <div class="input-group-text">@</div>
+              <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Username">
+            </div>
+          </div>
+          <div class="row g-3">
+            <div class="col pt-2">Email <span class="text-secondary">(optional)</span>
+              <input type="text" class="form-control" placeholder="You@example.com" aria-label="Last name">
+            </div>
+          </div>
+          <div class="row g-3">
+            <div class="col pt-2">Address
+              <input type="text" class="form-control" placeholder="1234 Main St" aria-label="Last name">
+            </div>
+          </div>
+          <div class="row g-3">
+            <div class="col pt-2">Address 2
+              <input type="text" class="form-control" placeholder="Apartment or suite" aria-label="Last name">
+            </div>
+          </div>
+        <div class="row g-3">
+          <div class="col-md-6">
+            <label for="validationDefault03" class="form-label">Country</label>
+            <select class="form-select" id="validationDefault04" required>
+                <option selected disabled value="">Choose...</option>
+                <option>India</option>
+                <option>Pakistan</option>
+                <option>Rusia</option>
+              </select>
+          </div>
+          <div class="col-md-3">
+            <label for="validationDefault04" class="form-label">State</label>
+            <select class="form-select" id="validationDefault04" required>
+              <option selected disabled value="">Choose...</option>
+              <option>Gujarat</option>
+              <option>MP</option>
+              <option>UP</option>
+            </select>
+          </div>
+          <div class="col-md-3">
+            <label for="validationDefault05" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="validationDefault05" required>
+          </div>
+        </div>
+        <div><hr></div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Shipping address is the same as my billing address.
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+            <label class="form-check-label" for="flexCheckChecked">
+              Save this information for next time
+            </label>
+          </div>
+          <div><hr></div>
+          <div><h5>Payment</h5></div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Credit Card
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Debit Card
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              PayPal
+            </label>
+          </div>
+          <div class="row g-3">
+            <div class="col">Name on card
+              <input type="text" class="form-control" aria-label="First name">
+              <div class="form-text" id="basic-addon4">Full name as displayed on card</div>
+            </div>
+            <div class="col">Credit card number
+              <input type="text" class="form-control" aria-label="Last name">
+            </div>
+          </div>
+          <div class="row g-3">
+            <div class="col">Expiration
+              <input type="text" class="form-control" aria-label="First name">
+            </div>
+            <div class="col">CVV
+                <input type="text" class="form-control" aria-label="First name">
+              </div>
+            <div class="col"></div>
+          </div>
+          <div><hr></div>
+          <button type="submit" class="btn btn-primary w-100">Continue To Checkout</button>
+        </div>
+    </div>
+    <div class="col-4">
+        <div class="d-flex justify-content-between"><h5>Your Cart</h5><i class="bi bi-3-circle-fill fs-4"></i></div>
+        <div class="card" style="width: 15rem;">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item d-flex justify-content-between"><div>Product Name<br><span class="text-secondary">Brief Discription</span></div><p>$12</p></li>
+              <li class="list-group-item d-flex justify-content-between"><div>Second product<br><span class="text-secondary">Brief Discription</span></div><p>$8</p></li>
+              <li class="list-group-item d-flex justify-content-between"><div>Third Product<br><span class="text-secondary">Brief Discription</span></div><p>$5</p></li>
+              <li class="list-group-item text-success d-flex justify-content-between"><div>Promo Code<br><span class="text-success fs-6">EXAMPLECODE</span></div><p>-$5</p></li>
+              <li class="list-group-item d-flex justify-content-between"><b>Total(USD)</b><b>$20</b></li>
+            </ul>
+          </div>
+          <div class="form-control p-2 mt-2">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Promo Code">
+                <span class="input-group-text bg-dark text-light">Reddem</span>
+            </div>
+          </div>
+
+    </div>
+</div>
+    </div>
+
+<script src="./bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+</body>
+</html>
